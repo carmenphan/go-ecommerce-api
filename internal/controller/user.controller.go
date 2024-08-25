@@ -17,5 +17,8 @@ func NewUserController() *UserController {
 }
 
 func (uc *UserController) GetUserById(c *gin.Context) {
+	if error != nil {
+		return response.ErrorResponse(c, 4001)
+	}
 	response.SuccessResponse(c, 2001, []string{"tipjs", "m10"})
 }
