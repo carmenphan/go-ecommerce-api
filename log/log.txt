@@ -1,0 +1,2 @@
+{"level":"INFO","time":"2024-08-27T05:52:12.259+0700","msg":"hello new production"}
+{"level":"ERROR","time":"2024-08-27T05:52:12.260+0700","msg":"bug nha "}
